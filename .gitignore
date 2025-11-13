@@ -70,3 +70,6 @@ Thumbs.db
 # CMake extras
 CMakeFiles/
 EOF
+git add .
+git commit -m "chore: initialize Jazzy workspace with src/ and ROS2 .gitignore"
+git push
