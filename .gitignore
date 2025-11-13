@@ -49,3 +49,24 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+cat > .gitignore << 'EOF'
+# colcon/ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# VS Code / CLion / IDE stuff
+.vscode/
+.idea/
+
+# macOS / Windows cruft
+.DS_Store
+Thumbs.db
+
+# CMake extras
+CMakeFiles/
+EOF
